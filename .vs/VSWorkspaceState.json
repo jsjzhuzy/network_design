@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\network_design_zzy"
+    "\\network_design_zzy",
+    "\\x64",
+    "\\x64\\Debug"
   ],
-  "SelectedNode": "\\network_design_zzy\\class.h",
+  "SelectedNode": "\\network_design_zzy\\main.cpp",
   "PreviewInSolutionExplorer": false
 }
