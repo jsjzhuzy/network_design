@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<list>
+#include<fstream>
 using namespace std;
 const int DefaultVertices = 30;
 template<class T, class E>
@@ -207,13 +208,13 @@ istream& operator>>(istream& in, Graphmtx<T, E>&G)
 	int i, j, k, n, m;
 	T e1, e2;
 	E weight;
-	in >> n >> m;             //输入顶点数和边数
+	in >> n >> m;         ·    //输入顶点数和边数
 	for (i = 0; i < n; i++)   //建立顶点表数据
 	{
 		in >> e1;
 		G.insertVertex(e1);
 	}
-	i = 0;
+	i = 0;·	
 	while (i < m)
 	{
 		in >> e1 >> e2 >> weight;  //输入端点信息
