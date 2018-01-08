@@ -14,6 +14,7 @@ bool Graphmtx<T, E>::removeVertex(int v)//删除顶点和所有与它相关联的边
 {
 	cout<<"Li";
 	cout<<"ddd";
+	cout << "zzy";
 	if (v < 0 || v >= numVertices)
 	{
 		return false;                  //顶点不在图中
