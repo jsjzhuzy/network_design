@@ -4,6 +4,7 @@
 template<class T, class E>
 void DFS(Graphmtx<T, E>& G, const T& v)
 {
+	cout << "zzy" << endl;
 	int i, loc, n = G.NumberOfVertices();
 	bool *visited = new bool[n];
 	for (i = 0; i < n; i++)
