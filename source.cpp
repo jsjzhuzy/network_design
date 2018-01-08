@@ -124,8 +124,8 @@ int Graphmtx<T, E>::getNextNeighbor(int v, int w)//ÕÒµ½¶¥µãvµÄÏÂÒ»¸öÁÚ½Ó¶¥µãwµÄÏ
 	return -1;
 };
 
-template<class T, class E>
-istream& operator>>(istream& in, Graphmtx<T, E>&G)
+//template<class T, class E>
+/*istream& operator>>(istream& in, Graphmtx<T, E>&G)
 {
 	int i, j, k, n, m;
 	T e1, e2;
@@ -153,4 +153,4 @@ istream& operator>>(istream& in, Graphmtx<T, E>&G)
 			}
 		}
 	return in;
-};
+};*/
