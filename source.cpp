@@ -12,6 +12,7 @@ bool Graphmtx<T, E>::insertVertex(const T& vertex)//插入顶点
 template<class T, class E>
 bool Graphmtx<T, E>::removeVertex(int v)//删除顶点和所有与它相关联的边
 {
+	cout<<"Li";
 	if (v < 0 || v >= numVertices)
 	{
 		return false;                  //顶点不在图中
